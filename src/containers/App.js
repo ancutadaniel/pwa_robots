@@ -60,13 +60,17 @@ class App extends Component {
       <div className='tc'>
         <Header />
         <SearchBox searchChange={onSearchChange} />
+        <label for='color1'>First Color</label>
         <input
+          id='color1'
           type='color'
           name='color1'
           onChange={this.setColor}
           value='#ffffff'
         />
+        <label for='color2'>Second Color</label>
         <input
+          id='color2'
           type='color'
           name='color1'
           onChange={this.setColor1}
