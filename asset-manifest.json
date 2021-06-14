@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/pwa_robots/static/css/main.ea765934.chunk.css",
-    "main.js": "/pwa_robots/static/js/main.3bc54015.chunk.js",
-    "main.js.map": "/pwa_robots/static/js/main.3bc54015.chunk.js.map",
+    "main.js": "/pwa_robots/static/js/main.d2380100.chunk.js",
+    "main.js.map": "/pwa_robots/static/js/main.d2380100.chunk.js.map",
     "runtime-main.js": "/pwa_robots/static/js/runtime-main.381422a8.js",
     "runtime-main.js.map": "/pwa_robots/static/js/runtime-main.381422a8.js.map",
     "static/css/2.c7a63f68.chunk.css": "/pwa_robots/static/css/2.c7a63f68.chunk.css",
     "static/js/2.ef61fb9e.chunk.js": "/pwa_robots/static/js/2.ef61fb9e.chunk.js",
     "static/js/2.ef61fb9e.chunk.js.map": "/pwa_robots/static/js/2.ef61fb9e.chunk.js.map",
     "index.html": "/pwa_robots/index.html",
-    "precache-manifest.e450c1d51f711df4f30e96f73b2603aa.js": "/pwa_robots/precache-manifest.e450c1d51f711df4f30e96f73b2603aa.js",
+    "precache-manifest.187e2968b225948ec78791903ea47c9d.js": "/pwa_robots/precache-manifest.187e2968b225948ec78791903ea47c9d.js",
     "service-worker.js": "/pwa_robots/service-worker.js",
     "static/css/2.c7a63f68.chunk.css.map": "/pwa_robots/static/css/2.c7a63f68.chunk.css.map",
     "static/css/main.ea765934.chunk.css.map": "/pwa_robots/static/css/main.ea765934.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.c7a63f68.chunk.css",
     "static/js/2.ef61fb9e.chunk.js",
     "static/css/main.ea765934.chunk.css",
-    "static/js/main.3bc54015.chunk.js"
+    "static/js/main.d2380100.chunk.js"
   ]
 }
