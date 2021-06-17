@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`expect to render Homepage component 1`] = `
+<div
+  className="tc"
+>
+  <Header />
+  <SearchBox />
+  <label />
+  <input
+    id="color1"
+    name="color1"
+    onChange={[Function]}
+    type="color"
+    value="#ffffff"
+  />
+  <label />
+  <input
+    id="color2"
+    name="color1"
+    onChange={[Function]}
+    type="color"
+    value="#ffffff"
+  />
+  <Scroll
+    color1=""
+    color2=""
+  >
+    <CardList
+      robots={Array []}
+    />
+  </Scroll>
+</div>
+`;

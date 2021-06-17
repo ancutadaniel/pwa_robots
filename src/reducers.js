@@ -3,10 +3,10 @@ import {
   REQUEST_ROBOTS_FAILED,
   REQUEST_ROBOTS_PENDING,
   REQUEST_ROBOTS_SUCCESS,
-} from "./constants";
+} from './constants';
 
 const initialStateSearch = {
-  searchField: "",
+  searchField: '',
 };
 
 export const searchRobots = (state = initialStateSearch, action = {}) => {
@@ -19,9 +19,9 @@ export const searchRobots = (state = initialStateSearch, action = {}) => {
 };
 
 const initialStateRobots = {
-  isPending: true,
+  isPending: false,
   robots: [],
-  error: "",
+  error: '',
 };
 
 export const requestRobots = (state = initialStateRobots, action = {}) => {
@@ -36,7 +36,7 @@ export const requestRobots = (state = initialStateRobots, action = {}) => {
     case REQUEST_ROBOTS_FAILED:
       return Object.assign({}, state, {
         isPending: false,
-        errorState: action.payload,
+        error: action.payload,
       });
     default:
       return state;
